@@ -1,0 +1,39 @@
+﻿<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+@{ 
+    ViewData["Title"] = "Criar Funcionario";
+}
+
+<body style="background-color: #e3e9f7">
+
+    <div class="text-center">
+        <h1 class="display-4">Cadastro de Funcionarios</h1>
+    </div>
+        <br />
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" placeholder="digite o nome">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="digite o email">
+            </div>
+            <div class="mb-3">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="number" class="form-control" placeholder="digite o celular">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="contrato">Fixo</label>
+            </div>
+            <br />
+            <div class="display:flex text-center">
+                <a href="#" class="btn btn-outline-secondary link-voltar-func">Voltar</a>
+                <a href="#" class="btn btn-outline-primary link-voltar-func">Confirmar</a>
+            </div>
+        </form>
+
+
+    
+</body>
